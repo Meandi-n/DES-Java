@@ -2,9 +2,13 @@
 A Java class designed to perform DES encryption on files.
 
 Use of this class is as follows:
-Setting the DES cipher master key: `des.setKey( long );`
-Performing encryption: `des.encrypt(FileInputStream, FileOutputStream);`
-Performing decryption: `des.decrypt(FileInputStream, FileOutputStream);`
+
+Setting the DES cipher master key: `des.setKey( long );`.
+
+Performing encryption: `des.encrypt(FileInputStream, FileOutputStream);`.
+
+Performing decryption: `des.decrypt(FileInputStream, FileOutputStream);`.
+
 
 An example application is as follows:
 ```
